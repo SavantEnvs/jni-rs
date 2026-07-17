@@ -1,0 +1,5 @@
+project: savantenvs/jni-rs
+target: typesignature
+cmds:
+  - cmd: /mayhem/typesignature
+    libfuzzer: true
