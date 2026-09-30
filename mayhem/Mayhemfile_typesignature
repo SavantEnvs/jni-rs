@@ -1,0 +1,6 @@
+# origin: https://app.mayhem.security/mayhemheroes/jni-rs/typesignature/2
+project: savantenvs/jni-rs
+target: typesignature-buggy-mhh-run-2
+cmds:
+  - cmd: /mayhem/typesignature
+    libfuzzer: true
